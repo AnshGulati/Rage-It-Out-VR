@@ -7,6 +7,9 @@ TagManager:
   - left hand
   - HandRigidbody
   - right hand
+  - Right Hand
+  - Left Hand
+  - Baton
   layers:
   - Default
   - TransparentFX
