@@ -66,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6310952fc8a0fb441bcdd70cc5bd2d5d,
         type: 3}
       propertyPath: m_Name
-      value: complete vase1 Variant
+      value: Vase
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -92,6 +92,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: -7965252042085290267}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6310952fc8a0fb441bcdd70cc5bd2d5d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2235544192644844793}
   m_SourcePrefab: {fileID: 100100000, guid: 6310952fc8a0fb441bcdd70cc5bd2d5d, type: 3}
 --- !u!1 &588613157412630736 stripped
 GameObject:
@@ -106,7 +110,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588613157412630736}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d0ec4f249fec774f881ed1cf61020db, type: 3}
   m_Name: 
@@ -161,7 +165,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &-8555148112137901325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,7 +270,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -285,6 +289,10 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
+  m_TrackScale: 1
+  m_SmoothScale: 0
+  m_SmoothScaleAmount: 8
+  m_TightenScale: 0.1
   m_ThrowOnDetach: 1
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
@@ -366,7 +374,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -406,3 +414,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2235544192644844793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588613157412630736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b7db5f812a2f4bbb07668d1854186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shatteredPrefab: {fileID: 3633979935053662761, guid: 4f5f0f88449eab040b3fd3cf25ca229c,
+    type: 3}
+  velocityNeededToShatter: 15
+  brokenVersion: {fileID: 3633979935053662761, guid: 4f5f0f88449eab040b3fd3cf25ca229c,
+    type: 3}

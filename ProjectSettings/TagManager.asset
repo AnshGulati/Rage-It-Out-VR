@@ -10,6 +10,9 @@ TagManager:
   - Right Hand
   - Left Hand
   - Baton
+  - Magazine
+  - lefthand
+  - righthand
   layers:
   - Default
   - TransparentFX
@@ -17,12 +20,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Gun
+  - Magazine
+  - Grab Interactable
+  - Player
+  - EjectedMagazine
+  - Baton
   - 
   - 
   - 

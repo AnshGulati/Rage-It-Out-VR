@@ -29,7 +29,7 @@ public class DestroyedVersion : MonoBehaviour
             isHit = true;
             GameObject instantiatedBrokenVersion = Instantiate(brokenVersion, transform.position, transform.rotation);
 
-            audioSource.Play();
+            // audioSource.Play();
 
             StartCoroutine(DestroyReplacement(instantiatedBrokenVersion, 4f));
 
